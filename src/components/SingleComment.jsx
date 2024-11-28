@@ -3,12 +3,12 @@ import { ListGroup } from "react-bootstrap";
 
 class SingleComment extends Component {
     render() {
-        return {
+        return (
           <ListGroup key={this.key} variant="dark">
             <ListGroup.Item variant="dark" className="text-warning bg-dark">
             </ListGroup.Item>
           </ListGroup>
-        }
+        )
     }
 }
 

@@ -11,7 +11,7 @@ class BookList extends Component {
     return (
       <>
         <Row className="justify-content-center mt-5">
-          <Col xs={12} md={4} className="text-center">
+          <Col xs={12} md={6} className="text-center">
             <Form.Group>
               <Form.Control
                 type="search"
