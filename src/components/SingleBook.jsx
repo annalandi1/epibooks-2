@@ -21,7 +21,7 @@ class SingleBook extends Component {
           </Card.Title>
           {this.state.selected && <CommentArea id={this.props.book.asin}/>}
           {this.state.selected && (
-            <Button className="mt-3" variant="warning">
+            <Button className="mt-3" variant="light">
               Lascia una recensione qui:
             </Button>
           )}
